@@ -1,0 +1,9 @@
+{
+  "source-folder" : "./src",
+  "test-folder" : "./test",
+  "test-format-type" : "pattern",
+  "test-format" : {
+    "input-pattern":"input.*.txt",
+    "output-pattern":"output.*.txt"
+  }
+}
