@@ -1,9 +1,17 @@
 {
-  "source-folder" : "./src",
-  "test-folder" : "./test",
-  "test-format-type" : "pattern",
-  "test-format" : {
-    "input-pattern":"input.*.txt",
-    "output-pattern":"output.*.txt"
-  }
+	"source-folder": "src",
+	"test-folder": "test_cases",
+	"test-format-type": "manual-pair",
+	"test-format": {
+		"io-pairs": [
+			{
+				"input": "input1.txt",
+				"output": "output1.txt"
+			},
+			{
+				"input": "input2.txt",
+				"output": "output2.txt"
+			}
+		]
+	}
 }
